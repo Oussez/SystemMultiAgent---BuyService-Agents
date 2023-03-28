@@ -1,0 +1,10 @@
+1) client envoie un msg de type CFP avec le contenu : le nom de service
+2) vendeur verifie si le msg de type CFP--> envoie un msg.content(le prix correspondant a le nom de service) + de type PROPOSE
+3) client reçoit le msg de type PROPOSE---> il ajoute à chaque fois le contenu de msg dans un tableau Price -- Aprs il choisi le prix le plus
+petit - Après il envoie un msg.content(le prix le plus petit) + de type AcceptProposal
+4) vendeur reçoit le msg de type AcceptProposal --> enovie un msg.content("ok, veuillez confirmer") + de type Agree
+5) client reçoit le msg de type Agree --> envoie un msg.content("confirmer l'achat") + de type Confirm
+
+
+==============================================================
+1) a chaque fois je crée un service sur la fentetre VendeurGUI ----> ClientController devrait charger le service sur sa listeView à l'aide de VendeurController

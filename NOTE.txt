@@ -1,0 +1,15 @@
+--------------------------------------Partie 1------------------------------------------
+**Sans FXML: 
+Objectifs : 
+--Creer 2 agents , chacun offre ses services
+--Pour agentClient , il aurra un affichage dans la listeView les différentes services disponibles
+--AgentClient envoie un message de type CFP qui va demander les services d'un agent précis.
+
+
+
+
+
+----------------------------------------------------Partie 2------------------------------------------
+**Avec FXML: il faut ajouter 2 classes controller
+Dans la classe controller de chaque agent(Vendeur et Client)
+public void startContainer() il faut l'ajouter à la méthode initialize dans la classe Controller
